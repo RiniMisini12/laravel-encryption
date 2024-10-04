@@ -74,8 +74,8 @@ go get github.com/RiniMisini12/laravel-encryption
 
 3. **Encryption and Decryption of Arrays**
 
-        **Encrypting an Array**
-        You can encrypt arrays (or any serializable data) by passing them to the `EncryptArray` function:
+   **Encrypting an Array**
+   You can encrypt arrays (or any serializable data) by passing them to the `EncryptArray` function:
 
     ```go
     package main
