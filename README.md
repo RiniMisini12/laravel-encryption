@@ -32,7 +32,7 @@ go get github.com/RiniMisini12/laravel-encryption
     import (
         "fmt"
         "log"
-        "github.com/yourusername/laravel-encryption"
+        "github.com/RiniMisini12/laravel-encryption"
     )
 
     func main() {
@@ -56,7 +56,7 @@ go get github.com/RiniMisini12/laravel-encryption
     import (
         "fmt"
         "log"
-        "github.com/yourusername/laravel-encryption"
+        "github.com/RiniMisini12/laravel-encryption"
     )
 
     func main() {
@@ -83,7 +83,7 @@ go get github.com/RiniMisini12/laravel-encryption
     import (
         "fmt"
         "log"
-        "github.com/yourusername/laravel-encryption"
+        "github.com/RiniMisini12/laravel-encryption"
     )
 
     func main() {
@@ -108,7 +108,7 @@ go get github.com/RiniMisini12/laravel-encryption
     import (
         "fmt"
         "log"
-        "github.com/yourusername/laravel-encryption"
+        "github.com/RiniMisini12/laravel-encryption"
     )
 
     func main() {
