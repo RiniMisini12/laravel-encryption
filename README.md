@@ -13,7 +13,7 @@ A Go package that provides encryption and decryption for strings and arrays iden
 To install the package, simply run:
 
 ```bash
-go get github.com/RiniMisini12/laravel-encryption
+go get github.com/RiniMisini12/laravelEncryption
 ```
 
 ### Usage
