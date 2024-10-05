@@ -1,4 +1,4 @@
-module github.com/RiniMisini12/laravel-encryption
+module github.com/RiniMisini12/laravelEncryption
 
 go 1.23.1
 
