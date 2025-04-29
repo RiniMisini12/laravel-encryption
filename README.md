@@ -6,7 +6,6 @@ A Go package that provides encryption and decryption for strings and arrays iden
 
 - Encrypt and decrypt strings in a way that is fully compatible with Laravel's encryption.
 - Encrypt and decrypt arrays (or any serializable data) using Laravel's encryption format.
-- Avoids "MAC is invalid" or "invalid payload" errors by ensuring compatibility with Laravel's encryption key format.
 
 ## Installation
 
@@ -123,13 +122,5 @@ go get github.com/RiniMisini12/laravelEncryption
         fmt.Println("Decrypted array:", decryptedArray)
     }
     ```
-
-4. **Laravel Compatibility**
-    This package ensures full compatibility with Laravel’s encryption. It follows the same process as Laravel for:
-
-    - Encryption: `AES-256-CBC` encryption with `HMAC` for integrity verification.
-    - Decryption: Ensures that the data is decrypted only if the `HMAC` is valid.
-    - Note: The Laravel `APP_KEY` must be passed in full, including the base64: prefix.
-
     This project is licensed under the [MIT License](./LICENSE). See the [LICENSE](./LICENSE) file for details.
 
